@@ -1,4 +1,5 @@
 ﻿using System;
+using CSProjectNo1.Person;
 
 namespace CSProjectNo1
 {
@@ -6,9 +7,11 @@ namespace CSProjectNo1
     {
         static void Main(string[] args)
         {
-            string name = "Daniel";
-            int age = 27;
-            Console.WriteLine(name);
+            Customer c = new Customer();
+            c.FirstName = "Daniel";
+            c.LastName = "Gluhak";
+            c.IsMale = true;
         }
+ 
     }
 }
